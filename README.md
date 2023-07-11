@@ -29,14 +29,13 @@ but get a sense of the basics before moving on.</p>
 <h2>Part 1: Explore the Starter Code</h2>
 <p>Download the starter code and start it with <code class="docutils literal notranslate"><span class="pre">python3</span> <span class="pre">-m</span> <span class="pre">http.server</span></code>. You
 can then visit the site at <cite>http://localhost:8000/</cite>.</p>
-<p>You will see that stories are displayed and there is functionality to log in
-and create a user. (Later, you’ll write the features to let users add new
+<p>You will see that stories are displayed, and the story links work, but the navigation bar ones do nothing. You will add the functionality to log in and create a user, then later, the features to let users add new
 stories, favorite a story, and delete a story.)</p>
 <p>Our front-end app consists of two parts:</p>
 <ul class="simple">
 <li>Classes and methods for the big data ideas: a <cite>Story</cite> class for each story,
 a <cite>StoryList</cite> class for the list of stories, and a <cite>User</cite> class for the
-logged-in user (if any). These methods also handle interacting with the API.</li>
+logged-in user (if any). These methods also need to handle interacting with the API.</li>
 <li>Functions for the UI, handling things like reading form values from forms
 and manipulating the DOM.</li>
 </ul>
@@ -51,8 +50,7 @@ maintenance. It’s often useful to think about the data and the UI separately,
 <dt><cite>js/models.js</cite></dt><dd><p>contains classes to manage the data of the app and the connection to the API.
 The name <em>models.js</em> to describe a file containing these kinds of classes
 that focus on the data and logic about the data. UI stuff shouldn’t go here.</p>
-<p><strong>Read this file thoroughly.</strong> There is a new keyword here, <cite>static</cite>.
-Make sure you understand what it means before moving on.</p>
+<p><strong>Read this file thoroughly.</strong></p>
 </dd>
 </dl>
 <p>For the UI layer, we’ve broken this into several files by topic:</p>
