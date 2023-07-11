@@ -76,7 +76,6 @@ functions. Read the documentation comments before a function or class to get
 an idea of what it should do and return.</p>
 <p>It can be very helpful to make a pen-and-paper drawing of the names of the
 important functions and how the call the other functions.</p>
-<a class="image-border reference internal image-reference" href="_images/design.svg"><img alt="_images/design.svg" class="image-border" src="_images/design.svg" width="100%" /></a>
 </div>
 </div>
 <div class="section" id="part-2-creating-new-stories">
